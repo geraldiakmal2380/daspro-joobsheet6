@@ -2,7 +2,7 @@
 
 Git clone command 
 ```html
-git clone 
+git clone https://github.com/geraldiakmal2380/daspro-joobsheet6.git
 ```
 Nested if
 -----------------------

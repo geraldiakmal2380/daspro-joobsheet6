@@ -13,9 +13,12 @@ public class Pemilihan2Percobaan110 {
         tahun = no10.nextInt();
         
         no10.close();
+
+        System.out.println(tahun%4);
+        System.out.println(tahun%100);
         if (tahun%4 == 0){
         
-            if (tahun%100 !=0 ){
+            if (tahun%100 == 0 ){
 
                 System.out.println("Tahun Kabisat");
             }
