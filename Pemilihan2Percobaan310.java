@@ -24,7 +24,7 @@ public class Pemilihan2Percobaan310 {
             gajibersih = (int)(penghasilan-(penghasilan*pajak));
             System.out.println("Penghasil Bersih : "+gajibersih);
         }
-        else if (kategori.equalsIgnoreCase("pebisnis")){
+        else if (kategori.equals("pebisnis")){
             if (penghasilan <= 2500000){
                 pajak = 0.15;
             }
