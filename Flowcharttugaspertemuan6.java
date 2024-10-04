@@ -3,7 +3,7 @@ public class Flowcharttugaspertemuan6 {
     public static void main(String[] args) {
         String hari,jenisbuku;
         int banyak_buku;
-        double diskon,tambahandiskon,total_diskon;
+        double diskon,tambahandiskon;
         Scanner no10 = new Scanner(System.in);
         System.out.println("Selamat datang di toko buku");
         System.out.print("Hari apa sekarang? : ");
